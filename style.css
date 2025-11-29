@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #def4fa;
+   
+    }
+    .heading{
+        text-align: center;
+        color: #333;
+       padding-top: 10px;
+        margin-bottom: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .location{
+        text-align: center;
+        color: #555;
+        margin-bottom: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .admission-form{
+        text-align: center;
+        color: #222;
+      padding-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+header{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-color: beige;
+}
+
+.container{
+  max-width:900px;
+  margin:0 auto;
+  background:var(--card);
+  border-radius:var(--radius);
+  padding:28px;
+  box-shadow:0 8px 30px rgba(2,6,23,0.08);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select,
+textarea{
+  width:100%;
+  padding:10px 12px;
+  margin-top:6px;
+  border:1px solid #d1d5db;
+  border-radius:8px;
+  font-size:14px;
+}
+.radio-row{
+  display:flex;
+  gap:14px;
+  margin-top:8px;
+}
+.submit{
+  padding: 5px;
+  text-align: center;
+    border-radius: 8px;
+align-items: center;
+
+}
+.box{
+
+padding-left: 45%  ;
+}
+.footer{
+  text-align:center;
+  margin-top:16px;
+  color:var(--muted);
+  font-size:13px;
+   
+   background-color: beige;
+   padding :10px;
+}
